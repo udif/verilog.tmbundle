@@ -9,9 +9,9 @@
 	<key>settings</key>
 	<dict>
 		<key>foldingStartMarker</key>
-		<string>^[^/]*-?(?!/)\s*(begin|^\s*case(x|z)?|^\s*module|^`ifdef)\b</string>
+		<string>^[^/]*-?(?!/)\s*(begin|^\s*case(x|z)?|^\s*module|^\s*generate|^`ifdef)\b</string>
 		<key>foldingStopMarker</key>
-		<string>\s*(end(case|module)?|`endif)\b</string>
+		<string>\s*(end(case|module|generate)?|`endif)\b</string>
 	</dict>
 	<key>uuid</key>
 	<string>62B90509-268C-42EC-B49C-AE0471DC68A4</string>
